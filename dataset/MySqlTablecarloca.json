@@ -1,0 +1,15 @@
+{
+	"name": "MySqlTablecarloca",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySqlPROFESSOR",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`loc_pedido_locacao`"
+		}
+	}
+}
