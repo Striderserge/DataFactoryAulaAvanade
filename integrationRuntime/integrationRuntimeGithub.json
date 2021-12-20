@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeGithub",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
