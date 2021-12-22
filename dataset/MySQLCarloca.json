@@ -1,0 +1,12 @@
+{
+	"name": "MySQLCarloca",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySqlPROFESSOR",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": []
+	}
+}
