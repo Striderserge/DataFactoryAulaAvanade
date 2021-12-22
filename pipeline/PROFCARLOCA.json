@@ -85,12 +85,15 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "Json1",
+									"referenceName": "Json2",
 									"type": "DatasetReference",
 									"parameters": {
-										"folder": "ingestion",
-										"file": "@item().table_schema",
-										"container": "@concat(item().table_name,'.json')"
+										"container": "ingestion",
+										"folder": "@item().table_schema",
+										"file": {
+											"value": "@concat(item().table_name,'.json')",
+											"type": "Expression"
+										}
 									}
 								}
 							]
