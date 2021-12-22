@@ -90,7 +90,7 @@
 									"parameters": {
 										"folder": "ingestion",
 										"file": "@item().table_schema",
-										"container": "@concat(item().table_name,'.parquet')"
+										"container": "@concat(item().table_name,'.json')"
 									}
 								}
 							]
